@@ -1,0 +1,109 @@
+body{
+
+    background-color: rgb(243, 243, 243);
+    width: auto;
+    height: auto;
+
+}
+
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+.movies{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section{
+    display: flex;
+    width: auto;
+    padding:20px;
+    justify-content: space-between;
+}
+
+.salaar{
+    background-color:rgb(235, 198, 178);
+    width: 250px;
+    border-radius: 20px;
+    }
+
+.baahubali{
+    background-color:rgb(235, 198, 178);
+     width: 250px;
+     border-radius: 20px;
+
+}
+
+.jersey{
+    background-color:rgb(235, 198, 178);
+     width: 250px;
+     border-radius: 20px;
+}
+
+.p1{
+    display:flex;
+    padding:20px
+}
+
+.p2{
+    display:flex;
+    padding:20px
+}
+
+.p3{
+    display:flex;
+    padding:20px
+} 
+.name1{
+    padding:10px;
+}
+
+.name2{
+    padding:10px;
+}
+
+.name3{
+    padding:10px;
+}
+
+.review1{
+    background-color:rgb(197, 233, 228);
+    border-radius: 20px;
+    width: 90%;
+    padding:5px;
+    font-size: medium;
+    font-weight: 200;
+}
+.review2{
+    background-color: rgb(197, 233, 228);
+    border-radius: 20px;
+    width: 90%;
+    padding:5px;
+    font-size: medium;
+    font-weight: 200;
+}
+
+.review3{
+    background-color: rgb(197, 233, 228);
+    border-radius: 20px;
+    width: 90%;
+    padding:5px;
+    font-size: medium;
+    font-weight: 200;
+};
+
+.main-text{
+    font-family: 'Courier New', Courier, monospace;
+}
+.section1{
+    padding: 30px;
+    
+}
+
+.section2{
+    padding: 30px;
+}
