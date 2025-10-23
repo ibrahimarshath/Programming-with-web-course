@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card Editor</title>
+    <link rel="stylesheet" href="6.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Profile Card Editor</h1>
+        
+        <div id="profileCard">
+            <img id="profileImage" src="https://play-lh.googleusercontent.com/rxl_qIKbGkb3UudV51vEdH2zrsmMhP7ZwZ9HG7USIzxSGwoTZozh8PBUNO5BhdaPGw" alt="Profile Picture">
+            <h2 id="profileName">John Cena</h2>
+            <p id="profileDescription">Web Developer | Designer | Coffee Lover</p>
+        </div>
+
+        <div class="editor">
+            <div class="input-group">
+                <label>Name:</label>
+                <input type="text" id="nameInput" placeholder="Enter name">
+            </div>
+            
+            <div class="input-group">
+                <label>Image URL:</label>
+                <input type="text" id="imageInput" placeholder="Enter image URL">
+            </div>
+            
+            <div class="input-group">
+                <label>Description:</label>
+                <input type="text" id="descriptionInput" placeholder="Enter description">
+            </div>
+            
+            <div class="input-group">
+                <label>Background Color:</label>
+                <input type="color" id="colorInput" value="#667eea">
+            </div>
+        </div>
+    </div>
+
+    <script src="6.js"></script>
+</body>
+</html>
