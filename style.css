@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: hsl(218, 23%, 16%);
+    padding: 20px;
+}
+
+.card {
+    background: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    padding: 50px 45px 40px;
+    max-width: 540px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+}
+
+#adviceNumber {
+    color: hsl(150, 100%, 66%);
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+#adviceText {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-weight: 800;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.dice-container {
+    margin-top: -32px;
+    display: flex;
+    justify-content: center;
+}
+
+#diceButton {
+    width: 64px;
+    height: 64px;
+    background: hsl(150, 100%, 66%);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 10px 30px rgba(82, 255, 168, 0.3);
+}
+
+#diceButton:hover {
+    box-shadow: 0 0 40px rgba(82, 255, 168, 0.8);
+    transition: 1.5s
+}
+
+#diceButton:hover .dice-icon {
+    transform: rotate(360deg);
+    transition: 1.5;
+}
+
+.dice-icon {
+    width: 24px;
+    height: 24px;
+    transition:  1s;
+}
+
+.loading {
+    opacity: 0.5;
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        padding: 30px 20px 30px;
+        max-width: 340px;
+    }
+
+    #adviceNumber {
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+
+    #adviceText {
+        font-size: 20px;
+        min-height: 100px;
+    }
+
+    .divider {
+        margin: 20px 0;
+    }
+
+    .dice-container {
+        margin-top: -28px;
+    }
+
+    #diceButton {
+        width: 56px;
+        height: 56px;
+    }
+
+    .dice-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .card {
+        padding: 55px 50px 45px;
+        max-width: 650px;
+    }
+
+    #adviceNumber {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    #adviceText {
+        font-size: 30px;
+        min-height: 140px;
+    }
+
+    #diceButton {
+        width: 70px;
+        height: 70px;
+    }
+
+    .dice-icon {
+        width: 26px;
+        height: 26px;
+    }
+}
